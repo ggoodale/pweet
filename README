@@ -1,0 +1,1 @@
+pweet is a simple Sinatra app to convert a Tweet into a png.  It relies on rmagick to do image manipulation, hrest_client for page fetching and hpricot for html scraping.  It's dumb, but here it is.
