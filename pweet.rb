@@ -1,4 +1,4 @@
-["rubygems", "rest_client", "hpricot", "rmagick", "fileutils"].each {|lib| require lib}
+["rubygems", "sinatra", "rest_client", "hpricot", "rmagick", "fileutils"].each {|lib| require lib}
 
 get '/:user/statuses/:id.png' do
   begin
